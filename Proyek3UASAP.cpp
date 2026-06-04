@@ -11,7 +11,6 @@ struct Barang{
 
 vector<Barang> daftarBarang;
 
-// Tambah Barang
 void tambahBarang(){
 
     Barang barang;
