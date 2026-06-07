@@ -110,7 +110,6 @@ void pembayaran() {
             time_t sekarang = time(0);
             int detik = difftime(sekarang, daftarMobil[i].waktuMasuk);
 
-            
             int biaya = (detik / 60) * 100;
 
             if (biaya == 0)
